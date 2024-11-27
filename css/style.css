@@ -1,0 +1,910 @@
+@charset "UTF-8";
+
+/* 共通部分
+-------------------- */
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: "noto sans jp";
+    line-height: 2;
+    color: #463b3b;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+
+/* HEADER
+-------------------- */
+.page-header h1 {
+    font-size: 2.6rem;
+    font-weight: lighter;
+    margin-top: 20px;
+    color: #C1B7A6;
+}
+.main-nav {
+    display: flex;
+    font-size: 1.6rem;
+    margin-top: 10px;
+    list-style: none;    
+}
+.main-nav li {
+    margin-left: 40px;
+}
+.main-nav a {
+    color: #463b3b;
+}
+.main-nav a:hover {
+    color: #BC7812;
+} 
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0.4%;
+}
+/* HOME
+-------------------- */
+#home {
+    height: 1500px;
+    background-image: url(../images/Home.png);
+    background-size: 100%;     
+}
+.home-text {
+    display: flex;
+    justify-content: space-between;
+}
+.page-title {
+    font-size: 3.8rem;
+    font-weight: normal;
+    margin-top: 55vh;
+}  
+.page-text {
+    font-size: 3rem;  
+    margin-left: 2vw;
+    padding-top: 20px;
+}   
+.page-price {
+    font-size: 3rem;
+    line-height: 1.5;
+    background: #463b3b;
+    border-radius: 80%;
+    color: #C1B7A6;
+    width: 175px;
+    height: 175px;
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 60vh;
+}   
+/* 装飾画像レモン */
+.img-in {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 60vh;
+    
+}
+/* commitment
+-------------------- */
+#commitment {
+    height: 2000PX;
+    background-image: url(../images/こだわり.png);
+    background-size: 100%;
+    margin-top: -10%;
+}
+.commitment-text {
+    background: #fee107;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-size: 3.8rem;
+    padding-top: 60px;
+    margin-top: 13vh;
+}
+.commitment-title1 {
+    text-align: center;
+    font-size: 3.8rem;
+    font-weight: normal;
+}
+.commitment-title2 {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: normal;
+}
+/* 装飾画像チーズタルト */
+.commitment-content img {
+    margin-top: -33vh;
+}
+/* こだわり１～３ ******************************************************************/
+.box1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+}
+/* こだわり　写真テキスト入れ替え */
+.box1.reverse {
+    flex-direction: row-reverse;    
+}
+.com-img {
+    width: 50%;
+    text-align: left;
+    margin-left: 10vw;
+    margin-top: 5vh;
+}
+.com-img-r {
+    width: 50%;
+    text-align: right;
+    margin-right: 10vw;
+    margin-top: 5vh;
+}
+.com-img3-r {
+    width: 50%;
+    text-align: right;
+    margin-right: 10vw;
+    margin-top: 5vh;
+}
+
+.com-text {
+    width: 50%;
+    text-align: left;
+}
+.com1 {
+    font-size: 20rem;
+    margin-left: 6vw;
+    position: relative;
+    opacity: 0.3;
+    color: #ff8a01
+}
+.com2 {
+    font-size: 20rem;
+    margin-left: -3vw;
+    position: relative;
+    opacity: 0.3;
+    color: #ff8a01
+}
+.com3 {
+    font-size: 20rem;
+    margin-left: 6vw;
+    position: relative;
+    opacity: 0.3;
+    color: #ff8a01
+}
+.com-title1 {
+    font-size: 2.4rem;
+    line-height: 1.5;
+    position: absolute;
+    color: #BC7812;
+    margin-top: -45vh;
+    margin-left: 15vw;
+}
+.com-title2 {
+    font-size: 2.4rem;
+    line-height: 1.5;
+    position: absolute;
+    color: #BC7812;
+    margin-top: -38vh;
+    margin-left: 7vw;
+}
+.com-title3 {
+    font-size: 2.4rem;
+    line-height: 1.5;
+    position: absolute;
+    color: #BC7812;
+    margin-top: -41vh;
+    margin-left: 15vw;
+
+}
+.com-text1 {
+    font-size: 1.8rem;
+    margin-top: -33vh;
+    margin-left: 15vw;   
+}
+.com-text2 {
+    font-size: 1.8rem;
+    margin-top: -31vh;
+    margin-left: 7vw;
+}
+.com-text3 {
+    font-size: 1.8rem;
+    margin-top: -34vh;
+    margin-left: 15vw; 
+}
+/* menu
+-------------------- */
+.menu-title {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: normal;
+    margin-top: 5vh;
+}
+.menu-text1 {
+    text-align: center;
+    font-size: 1.8rem;
+    padding-top: 5vh
+}
+.menu-text2 {
+    text-align: center;
+    font-size: 1.8rem;
+    padding-top: 2vh;
+}
+/* 装飾画像マスカルポーネ */
+.menu-content {
+    text-align: right;
+}
+.menu-content img {
+    margin-top: -20vh;
+}
+/* ------------------------------------------ */
+.box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+}
+/* 商品一覧　写真左側 */
+.menu-img {
+    width: 50%;
+    text-align: right;
+    margin-right: 5vw;
+}
+.menu-img3 {
+    width: 50%;
+    text-align: right;
+    margin-right: 5vw;
+}
+/* 商品一覧　写真右側 */
+.menu-img-rev {
+    width: 50%;
+    text-align: left;
+    margin-left: 5vw;
+}
+.menu-img4-rev {
+    width: 50%;
+    text-align: left;
+    margin-left: 5vw;
+}
+.menu-text {
+    width: 50%;
+    text-align: left;
+}
+/* 商品一覧　写真テキスト入れ替え */
+.box.reverse {
+    flex-direction: row-reverse;    
+}
+/* 商品一覧　人気№1 */
+.box-no1 {
+    background: #fee107;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;  
+    font-size: 2.2rem;
+    text-align: center;
+    padding-top: 27px;
+    margin-top: 2vh;
+    margin-left: -3vw;
+}
+/* 商品一覧　人気№2 */
+.box-no2 {
+    background: #FF8F86;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    font-size: 2.2rem;
+    text-align: center;
+    padding-top: 27px;
+    margin-left: 7vw;
+    margin-top: 2vh;
+}
+/* 商品一覧　テキスト　レモンのムースチーズタルト */
+.box-title {
+    font-size: 1.8rem;
+    margin-left: 2vw;
+    margin-top: -3vh;
+}
+.box-texs {
+    font-size: 1.6rem;
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+/* 装飾画像レモン */
+.images1 {
+    text-align: right;
+    margin-top: -15vh;
+}
+/* 商品一覧　テキスト　イチゴのチーズタルト */
+.box-title-r {
+    font-size: 1.8rem;
+    margin-left: 12vw;
+    margin-top: -3vh;
+}
+.box-texs-r {
+    font-size: 1.6rem;
+    margin-left: 12vw;
+    margin-top: 2vh;
+}
+/* 装飾画像イチゴ */
+.images2 {
+    margin-left: 5vw;
+    margin-top: -1vh;
+}
+/* 商品一覧　テキスト　季節チーズタルト */
+.box-title-3 {
+    font-size: 1.8rem;
+    margin-left: 2vw;
+    margin-top: 10vh;
+}
+/* 装飾画像ブルベリー */
+.images3 {
+    text-align: right;
+    margin-top: -50vh;
+}
+/* 装飾画像マスカット*/
+.images4 {
+    text-align: right;
+    margin-top: -10vh;
+}
+/* 商品一覧　テキスト　ホールタルト */
+.box-title-4 {
+    font-size: 1.8rem;
+    margin-left: 12vw;
+}
+.box-title-5 {
+    font-size: 1.8rem;
+    color: #F21717;
+    margin-left: 20vw;
+    margin-top: -36px;    
+}
+.box-texs-2 {
+    font-size: 1.6rem;
+    margin-left: 3vw;
+}
+.box-texs-3 {
+    font-size: 1.6rem;
+    text-align: center;
+    background: #FAF156;
+    width: 300px;
+    height: 30px;
+    border-radius: 50px;
+    margin-left: 12vw;
+    margin-top: 4vh;
+}
+.box-texs-4 {
+    font-size: 1.6rem;
+    text-align: center;
+    background: #FF8F86;
+    width: 300px;
+    height: 30px;
+    border-radius: 50px;
+    margin-left: 12vw;
+    margin-top: 4vh;
+}
+.menu-price {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-left: 10vw;
+    margin-top: 10px;
+}
+.menu-price div {
+    display: inline-block;
+    margin: 0 10px;
+}
+/* 商品一覧　最後テキスト */
+.menu-content2 {
+    font-size: 1.8rem;
+    margin-top: 10vh;
+    max-inline-size: max-content;
+    margin-inline: auto;
+}
+.button {
+    text-align: center;
+    margin-top: 5vh;
+}
+.btn {
+    display: inline-block;
+    background: #FFCB7E;
+    color: #FFFFFC;
+    padding: 5px 50px;
+    margin-bottom: 10vh;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    text-align: center;
+}
+/* contact
+-------------------- */
+#contact {
+    background-color: #FFFCE1;    
+}
+.contact-title {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: normal;
+    margin-top: 10vh;
+}
+.form div {
+    margin-bottom: 14px;
+}
+.label {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    display: block;
+}
+.from {
+    margin: 80px auto;
+    max-width: 720px;   
+}
+.form-item {
+    border-top: 1px solid #ddd;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.form-item:nth-child(3) {
+    border-bottom: 1px solid #ddd;
+}    
+.form-item-label {
+    width: 100%;
+    max-width: 248px;
+    letter-spacing: 0.5rem;
+    font-weight: normal;
+    font-size: 1.8rem;
+}
+.form-item-label.ismsg {
+    margin-top: 8px;
+    margin-bottom: auto;
+}
+.form-item-label-required {
+    border-radius: 6px;
+    width: 48px;
+    margin-left: 10px;
+    display: inline-block;
+    text-align: center;
+    background: #FC4536;
+    color: #FFF;
+    font-size: 1.4rem;
+}
+.form-item-Input {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 48px;
+    flex: 1;
+    width: 100%;
+    max-width: 410px;
+    background: #FFFEF3;
+    font-size: 1.8rem;
+}
+.form-item-textarea {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 216px;
+    flex: 1;
+    width: 100%;
+    max-width: 410px;
+    background: #FFFEF3;
+    font-size: 1.8rem;
+}
+.form-btn {
+    border-radius: 6px;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 220px;
+    display: block;
+    letter-spacing: 0.5rem;
+    background: #FFCB7E;
+    color: #FFF;
+    font-weight: normal;
+    font-size: 2rem;
+}
+/* location
+-------------------- */
+#location {
+    background: #C1B7A6;
+}
+.location-title1 {
+    font-size: 4rem;
+    font-weight: normal;
+    text-align: center;
+    margin-top: -35vh;
+}
+.location-title2 {
+    font-size: 3.8rem;
+    font-weight: normal;
+    margin-top: 10vh;
+    margin-left: 10vw;
+}
+.location-content p {
+    font-size: 1.8rem;
+    margin-left: 10vw;
+}
+.location-texs2 {
+    padding-top: 15px;
+}
+.location-texs3 {
+    padding-top: 15px;
+}
+/* 店舗画像 */
+.img-in2 {
+    text-align: right;
+    margin-top: -50vh;
+    margin-right: 10vw;
+}
+/* マップ */
+.location-map {
+    text-align: center;
+    margin-top: 10vh;
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 56.25%;
+}
+.location-map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* フッター
+-------------------- */
+footer {
+    background: #C1B7A6;
+    text-align: center;
+    padding: 16px 0;
+}
+footer p {
+    font-size: 1.6rem;
+}
+/* モバイル版
+-------------------- */
+@media (max-width: 500px) {
+    /* ヘッダー */
+    .page-header h1 {
+        font-size: 2rem;
+        margin-top: -1vh;
+        margin-left: 2vw;
+    }
+    .main-nav {
+        display: block;
+        font-size: 1.2rem;
+        margin: 15px 0;
+        line-height: 30px;
+    }
+    /* ホーム　*/
+    .page-title {
+        font-size: 2rem;
+        margin-top: 12vh;
+        margin-left: 18vw;
+    }
+    .page-text {
+        font-size: 1.4rem;
+        margin-left: 20vh;
+        margin-top: -3vh;
+    }
+    .page-price {
+        font-size: 1.4rem;
+        line-height: 1.5;
+        background: #463b3b;
+        border-radius: 50%;
+        color: #C1B7A6;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        padding-top: 25px;
+        margin-top: 12vh;
+        margin-right: 5vw;
+    }
+    .img-in {
+        width: 200px;
+        margin-top: 5vh;
+        margin-left: auto;
+     }
+     /* こだわり　*/
+     #commitment {
+        margin-top: -170Vh;
+        background-size: auto;
+    }
+     .commitment-text {
+        background: #fee107;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        font-size: 1.6rem;
+        padding-top: 30px;
+        margin-top: 5vh;
+        margin-left: 5vw;
+    }
+    .commitment-title1 {
+        font-size: 2rem;
+        margin-top: -10vh;
+    }
+    .commitment-title2 {
+        font-size: 2.4rem;
+    }
+    .commitment-content img {
+        width: 110px;
+        margin-top: -10vh;
+        margin-left: 5vw;
+    }
+    /* こだわり　　写真テキスト入れ替え　*/
+    .box1.reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .box1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .com-text {
+        width: 100%;
+    }
+    .com1 {
+        margin-top: -20vh;
+        margin-left: 13vw;
+    }
+    .com-title1 {
+        font-size: 1.8rem;
+        margin-top: -49vh;
+        margin-left: 41vw;
+    }
+    .com-text1 {
+        font-size: 1.6rem;
+        margin-top: -37vh;
+        margin-left: 41vw;
+    }
+    .com-img-r{
+        width: 100%;
+        text-align: center;
+        margin-top: 0;
+    }
+    .com2 {
+        margin-top: -22vh;
+        margin-left: 13vw;
+    }
+    .com-title2 {
+        font-size: 1.8rem;
+        margin-top: -42vh;
+        margin-left: 41vw;
+    }
+    .com-text2 {
+        font-size: 1.6rem;
+        margin-top: -35vh;
+        margin-left: 41vw;
+    }
+    .com-img {
+        width: 100%;
+        text-align: center;
+        margin: 4vh 0;
+    }
+    .com3 {
+        margin-top: -25vh;
+        margin-left: 13vw;
+    }
+    .com-title3 {
+        font-size: 1.8rem;
+        margin-top: -45vh;
+        margin-left: 41vw;
+    }
+    .com-text3 {
+        font-size: 1.6rem;
+        margin-top: -40vh;
+        margin-left: 41vw;
+    }
+    .com-img3-r {
+        width: 100%;
+        text-align: center;
+        margin: 4vh 0;
+    }
+    /* 商品一覧　*/
+    .menu-content {
+        margin-top: -40vh;
+    }
+    .menu-title {
+        font-size: 2.4rem;
+    }
+    .menu-content img {
+        width: 150px;
+        margin-top: -5vh;
+    }
+    /* 商品一覧　　写真テキスト入れ替え　*/
+    .box {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .box.reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .menu-text {
+        width: 100%;
+    }
+    /* 商品一覧　レモンのムースチーズタルト*/
+    .box-no1 {
+        margin-left: 7vw;
+        margin-top: -10vh;
+    }
+    .box-title {
+        margin-left: 15vw;
+    }
+    .box-texs {
+        margin-left: 15vw;
+    }
+    .menu-img {
+        width: 100%;
+        text-align: center;
+        margin-top: -10vh;
+    }
+    /* 商品一覧　イチゴのチーズタルト*/
+    .box-no2 {
+        margin-left: 7vw;
+        margin-top: -5vh;
+    }
+    .box-title-r {
+        margin-left: 15vw;
+    }
+    .box-texs-r {
+        margin-left: 15vw;
+    }
+    .images2 {
+        text-align: right;
+        margin-top: -7vh;
+
+    }
+    .menu-img-rev {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        margin-top: -2vh;
+    }
+    /* 商品一覧　季節のチーズタルト*/
+    .box-title-3 {
+        margin-left: 15vw;
+        margin-top: -1vh;
+    }
+    .menu-img3 {
+        width: 100%;
+        text-align: center;
+        margin-top: 15vh;
+    }
+    .images3 {
+        margin-top: -1vh;
+        margin-left: 15vw;
+        width: 150px;
+    }
+    .images4 {
+        margin-top: -55vh;
+    }    
+    /* 商品一覧　ホールタルト*/
+    .box-title-4 {
+        margin-left: 20vw;
+    }
+    .box-title-5 {
+        margin-left: 43vw;
+    }
+    .box-texs-3 {
+        font-size: 1.6rem;
+        text-align: center;
+        background: #FAF156;
+        width: 300px;
+        height: 30px;
+        border-radius: 50px;
+        margin: 4vh 20vw;
+    }
+    .box-texs-4 {
+        font-size: 1.6rem;
+        text-align: center;
+        background: #FF8F86;
+        width: 300px;
+        height: 30px;
+        border-radius: 50px;
+        margin: 4vh 20vw;
+    }
+    .menu-price {
+        font-size: 1.4rem;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .menu-img4-rev{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        margin-top: 5vh;
+    }
+    /* contact
+    -------------------- */
+    .contact-title {
+        font-size: 2.4rem;
+    }
+    .from {
+        margin-top: 10px;
+    }   
+    .form-item {
+        padding-left: 14px;
+        padding-left: 14px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        flex-wrap: wrap;
+    }
+    .form-item-label {
+        max-width: inherit;
+        display: flex;
+        align-items: center;
+        font-size: 1.4rem;
+    }
+    .form-item-label.ismsg {
+        margin-top: 0;
+    }
+    .form-item-label-required {
+        border-radius: 4px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        width: 36px;
+        font-size: 1rem;
+    }
+    .form-item-Input {
+        margin-left: 0;
+        margin-top: 18px;
+        height: 40px;
+        flex: inherit;
+        font-size: 1.6rem;
+    }
+    .form-item-textarea {
+        margin-top: 18px;
+        margin-left: 0;
+        height: 200px;
+        flex: inherit;
+        font-size: 1.6rem;
+    }
+    /* location
+    -------------------- */
+    .img-in1 {
+        width: 200px;
+    }
+    .location-title1 {
+        font-size: 2.4rem;
+        margin-top: -30vh;
+    }
+    .location-title2 {
+        font-size: 2.6rem;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 3vh;
+    }
+    .location-texs1 {
+        font-size: 1.8rem;
+        padding-top: 15px;
+        padding-left: 60px;
+    }
+    .location-texs2 {
+        padding-left: 60px;
+    }
+    .location-texs3 {
+        padding-left: 60px;
+    }
+    .img-in2 {
+        text-align: center;
+        margin: 20px 0 0;
+    }
+    .location-map {
+        margin: 0;
+    }
+}

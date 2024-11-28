@@ -583,19 +583,19 @@ footer p {
     }
     .main-nav {
         display: block;
-        font-size: 1.2rem;
+        font-size: 1rem;
         margin: 15px 0;
         line-height: 30px;
     }
     /* ホーム　*/
     .page-title {
-        font-size: 2rem;
-        margin-top: 12vh;
+        font-size: 1.8rem;
+        margin-top: 3vh;
         margin-left: 18vw;
     }
     .page-text {
-        font-size: 1.4rem;
-        margin-left: 20vh;
+        font-size: 1.2rem;
+        margin-left: 25vw;
         margin-top: -3vh;
     }
     .page-price {
@@ -604,16 +604,16 @@ footer p {
         background: #463b3b;
         border-radius: 50%;
         color: #C1B7A6;
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
         text-align: center;
         padding-top: 25px;
-        margin-top: 12vh;
+        margin-top: 5vh;
         margin-right: 5vw;
     }
     .img-in {
         width: 200px;
-        margin-top: 5vh;
+        margin-top: -7vh;
         margin-left: auto;
      }
      /* こだわり　*/
@@ -630,11 +630,11 @@ footer p {
         font-size: 1.6rem;
         padding-top: 30px;
         margin-top: 5vh;
-        margin-left: 5vw;
+        margin-left: 2vw;
     }
     .commitment-title1 {
-        font-size: 2rem;
-        margin-top: -10vh;
+        font-size: 1.6rem;
+        margin-top: -7vh;
     }
     .commitment-title2 {
         font-size: 2.4rem;
@@ -657,18 +657,19 @@ footer p {
         width: 100%;
     }
     .com1 {
-        margin-top: -20vh;
-        margin-left: 13vw;
+        font-size: 16rem;
+        margin-top: -18vh;
+        margin-left: 5vw;
     }
     .com-title1 {
         font-size: 1.8rem;
-        margin-top: -49vh;
-        margin-left: 41vw;
+        margin-top: -36vh;
+        margin-left: 37vw;
     }
     .com-text1 {
         font-size: 1.6rem;
-        margin-top: -37vh;
-        margin-left: 41vw;
+        margin-top: -27vh;
+        margin-left: 37vw;
     }
     .com-img-r{
         width: 100%;
@@ -676,18 +677,19 @@ footer p {
         margin-top: 0;
     }
     .com2 {
-        margin-top: -22vh;
-        margin-left: 13vw;
+        font-size: 16rem;
+        margin-top: -15vh;
+        margin-left: 5vw;
     }
     .com-title2 {
         font-size: 1.8rem;
-        margin-top: -42vh;
-        margin-left: 41vw;
+        margin-top: -32vh;
+        margin-left: 37vw;
     }
     .com-text2 {
         font-size: 1.6rem;
-        margin-top: -35vh;
-        margin-left: 41vw;
+        margin-top: -27vh;
+        margin-left: 37vw;
     }
     .com-img {
         width: 100%;
@@ -695,18 +697,19 @@ footer p {
         margin: 4vh 0;
     }
     .com3 {
-        margin-top: -25vh;
-        margin-left: 13vw;
+        font-size: 16rem;
+        margin-top: -20vh;
+        margin-left: 5vw;
     }
     .com-title3 {
         font-size: 1.8rem;
-        margin-top: -45vh;
-        margin-left: 41vw;
+        margin-top: -35vh;
+        margin-left: 37vw;
     }
     .com-text3 {
         font-size: 1.6rem;
-        margin-top: -40vh;
-        margin-left: 41vw;
+        margin-top: -30vh;
+        margin-left: 37vw;
     }
     .com-img3-r {
         width: 100%;
@@ -720,9 +723,15 @@ footer p {
     .menu-title {
         font-size: 2.4rem;
     }
+    .menu-text1 {
+        font-size: 1.6rem;
+    }
+    .menu-text2 {
+        font-size: 1.6rem;
+    } 
     .menu-content img {
-        width: 150px;
-        margin-top: -5vh;
+        width: 200px;
+        margin: 0;
     }
     /* 商品一覧　　写真テキスト入れ替え　*/
     .box {
@@ -742,7 +751,7 @@ footer p {
         margin-top: -10vh;
     }
     .box-title {
-        margin-left: 15vw;
+        margin-left: 11vw;
     }
     .box-texs {
         margin-left: 15vw;
@@ -750,7 +759,12 @@ footer p {
     .menu-img {
         width: 100%;
         text-align: center;
-        margin-top: -10vh;
+        margin-top: -8vh;
+    }
+    .images1 {
+        opacity: 0.5;
+        margin: 0;
+        margin-top: -20vh;
     }
     /* 商品一覧　イチゴのチーズタルト*/
     .box-no2 {
@@ -758,14 +772,15 @@ footer p {
         margin-top: -5vh;
     }
     .box-title-r {
-        margin-left: 15vw;
+        margin-left: 11vw;
     }
     .box-texs-r {
-        margin-left: 15vw;
+        margin-left: 11vw;
     }
     .images2 {
-        text-align: right;
-        margin-top: -7vh;
+        text-align: left;
+        margin-top: -15vh;
+        opacity: 0.5;
 
     }
     .menu-img-rev {
@@ -776,25 +791,30 @@ footer p {
     }
     /* 商品一覧　季節のチーズタルト*/
     .box-title-3 {
-        margin-left: 15vw;
+        margin-left: 11vw;
         margin-top: -1vh;
+    }
+    .box-texs {
+        margin-left: 11vw;
     }
     .menu-img3 {
         width: 100%;
         text-align: center;
-        margin-top: 15vh;
+        margin-top: 1vh;
     }
     .images3 {
-        margin-top: -1vh;
-        margin-left: 15vw;
-        width: 150px;
+        width: 50%;
+        text-align: left;
+        opacity: 0.4;
+        margin-top: -35vh;
     }
     .images4 {
-        margin-top: -55vh;
+        opacity: 0.4;
+        margin-top: 2vh;
     }    
     /* 商品一覧　ホールタルト*/
     .box-title-4 {
-        margin-left: 20vw;
+        margin-left: 11vw;
     }
     .box-title-5 {
         margin-left: 43vw;
@@ -806,7 +826,7 @@ footer p {
         width: 300px;
         height: 30px;
         border-radius: 50px;
-        margin: 4vh 20vw;
+        margin: 4vh 10vw;
     }
     .box-texs-4 {
         font-size: 1.6rem;
@@ -815,7 +835,7 @@ footer p {
         width: 300px;
         height: 30px;
         border-radius: 50px;
-        margin: 4vh 20vw;
+        margin: 4vh 10vw;
     }
     .menu-price {
         font-size: 1.4rem;
@@ -907,4 +927,5 @@ footer p {
     .location-map {
         margin: 0;
     }
+
 }

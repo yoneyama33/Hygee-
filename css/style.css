@@ -302,7 +302,7 @@ img {
 }
 /* 商品一覧　テキスト　レモンのムースチーズタルト */
 .box-title {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin-left: 2vw;
     margin-top: -3vh;
 }
@@ -318,7 +318,7 @@ img {
 }
 /* 商品一覧　テキスト　イチゴのチーズタルト */
 .box-title-r {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin-left: 12vw;
     margin-top: -3vh;
 }
@@ -330,18 +330,18 @@ img {
 /* 装飾画像イチゴ */
 .images2 {
     margin-left: 5vw;
-    margin-top: -1vh;
+    margin-top: -5vh;
 }
 /* 商品一覧　テキスト　季節チーズタルト */
 .box-title-3 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin-left: 2vw;
     margin-top: 10vh;
 }
 /* 装飾画像ブルベリー */
 .images3 {
     text-align: right;
-    margin-top: -50vh;
+    margin-top: -40vh;
 }
 /* 装飾画像マスカット*/
 .images4 {
@@ -350,11 +350,11 @@ img {
 }
 /* 商品一覧　テキスト　ホールタルト */
 .box-title-4 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin-left: 12vw;
 }
 .box-title-5 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: #F21717;
     margin-left: 20vw;
     margin-top: -36px;    
@@ -531,7 +531,7 @@ img {
 }
 .location-content p {
     font-size: 1.8rem;
-    margin-left: 10vw;
+    margin-left: 7vw;
 }
 .location-texs2 {
     padding-top: 15px;
@@ -731,7 +731,8 @@ footer p {
     } 
     .menu-content img {
         width: 200px;
-        margin: 0;
+        display: block;
+        margin: 0 auto;
     }
     /* 商品一覧　　写真テキスト入れ替え　*/
     .box {
